@@ -1,4 +1,21 @@
+/* work-sans font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    display: flex;
+
+}
+
 .logo {
     width: 40px;
     height: 40px;
+}
+
+.social-media {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
 }
