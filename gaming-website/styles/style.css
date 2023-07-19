@@ -284,4 +284,16 @@ nav li a {
         padding: 0px 100px 20px;
     }
 
+    .online-video-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .video {
+        width: 80%;
+    }
+
 }
