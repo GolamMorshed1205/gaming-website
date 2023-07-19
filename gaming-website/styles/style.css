@@ -331,6 +331,32 @@ nav li a {
     background-image: url(../images/Group\ 15.png);
 }
 
+/* category Styles */
+
+.category {
+    background: rgba(255, 66, 165, 0.03);
+}
+
+.category-content {
+    padding: 80px 100px 80px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 40px;
+
+}
+
+.game-category {
+    border-radius: 50px;
+    background: #f7dddd;
+    display: flex;
+    gap: 10px;
+    padding: 5px 30px 5px 10px;
+    font-size: small;
+    text-align: center;
+}
+
 /* Footer Styles */
 
 .footer {
@@ -360,6 +386,7 @@ nav li a {
     font-size: 2rem;
 
 }
+
 .footer-useful-link {
     display: flex;
     justify-content: center;
@@ -370,10 +397,12 @@ nav li a {
 .footer-useful-link li {
     list-style: none;
 }
+
 div li a {
     text-decoration: none;
     color: #3C354F;
-} 
+}
+
 .footer-social-link {
     display: flex;
     justify-content: center;
@@ -484,12 +513,18 @@ div li a {
     .Career-content-column1 {
         font-size: 0.8rem;
     }
+
     .Career-content-column2 {
         font-size: 0.8rem;
     }
 
     .Career-img {
         width: 100%;
+    }
+
+    .category-content {
+        flex-direction: row;
+        padding: 10px 0px 40px 0px;
     }
 
     .footer {
