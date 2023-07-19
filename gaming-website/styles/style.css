@@ -426,6 +426,13 @@ nav li a {
         padding: 5px 5px 5px 0px;
     }
 
+    .Career-content-column1 {
+        font-size: 0.8rem;
+    }
+    .Career-content-column2 {
+        font-size: 0.8rem;
+    }
+
     .Career-img {
         width: 100%;
     }
