@@ -111,7 +111,7 @@ nav li a {
     width: 50%;
     background-image: url("../images/Group\ 14.png");
     background-size: 100%;
-    padding: 130px 40px 0px 100px;
+    padding: 100px 40px 0px 100px;
 
 }
 
@@ -166,12 +166,47 @@ nav li a {
     width: 100%;
 }
 
+
+/* Featured Section Styles */
+
+.featured {
+    display: flex;
+}
+
+.featured-image-content {
+    width: 90%;
+}
+
+.featured-content {
+    width: 50%;
+    text-align: end;
+    padding: 0px 80px 20px;
+}
+
+.featured-title {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.featured-details-content {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+
+
 /* Responsive Media Queries */
 
 @media screen and (max-width: 576px) {
     nav {
         flex-direction: column;
     }
+
     .nav-content {
         padding-left: 0px;
     }
@@ -190,9 +225,11 @@ nav li a {
         margin-right: -5px;
         margin-bottom: 10px;
     }
+
     .banner {
         flex-direction: column-reverse;
     }
+
     .banner-content {
         width: 100%;
         background-size: 100%;
@@ -200,8 +237,17 @@ nav li a {
         margin-bottom: 10px;
     }
 
-    .btn { display: flex;
+    .btn {
+        display: flex;
 
+    }
+
+    .featured {
+        flex-direction: column;
+    }
+    .featured-content {
+        text-align: center;
+        padding: 0px 100px 20px;
     }
 
 }
