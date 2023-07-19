@@ -232,6 +232,42 @@ nav li a {
     text-align: center;
 }
 
+/*Play Instant Section */
+
+.play-instant {
+    display: flex;
+}
+
+.play-instant-content {
+    padding: 180px 100px;
+    text-align: center;
+}
+
+.play-instant-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.play-instant-title span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instant-img {
+    height: 500px;
+    margin: 40px 40px 20px 0px;
+}
+
+.play-instant-img-small {
+    position: relative;
+    width: 150px;
+    margin-top: -300px;
+    margin-left: -60px;
+    border: none;
+}
 
 /* Responsive Media Queries */
 
