@@ -331,6 +331,61 @@ nav li a {
     background-image: url(../images/Group\ 15.png);
 }
 
+/* Footer Styles */
+
+.footer {
+    background: #0B0223;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-logo span {
+    color: #FF42A5;
+
+}
+
+.logo {
+    height: 40px;
+    width: 60px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 2rem;
+
+}
+.footer-useful-link {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #FFF;
+}
+
+.footer-useful-link li {
+    list-style: none;
+}
+div li a {
+    text-decoration: none;
+    color: #3C354F;
+} 
+.footer-social-link {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.copyright {
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 /* Responsive Media Queries */
 
 @media screen and (max-width: 576px) {
@@ -436,4 +491,22 @@ nav li a {
     .Career-img {
         width: 100%;
     }
+
+    .footer {
+        margin-top: -10px;
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+    .footer-useful-link {
+        flex-wrap: wrap;
+        padding: 5px 5px;
+    }
+
+    .copyright {
+        font-size: small;
+    }
+
 }
