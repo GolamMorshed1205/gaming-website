@@ -332,4 +332,24 @@ nav li a {
         width: 80%;
     }
 
+    .play-instant {
+        flex-direction: column;
+    }
+
+    .play-instant-content {
+        padding: 20px 25px 0px 25px;
+        text-align: center;
+    }
+
+    .play-instant-img {
+        width: 200px;
+        height: 200px;
+        padding: 0px 10px 10px 60px ;
+    }
+
+    .play-instant-img-small {
+        width: 80px;
+        position: relative;
+        margin: -100px 100px 0px 10px;
+    }
 }
