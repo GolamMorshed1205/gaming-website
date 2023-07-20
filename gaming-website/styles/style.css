@@ -240,9 +240,8 @@ nav li a {
     cursor: pointer;
 }
 
-.video:hover+.hide {
-    display: block;
-    backface-visibility: var(blur);
+.video:hover {
+    border: 2px solid #FF42A5;
     color: #FF42A5;
     text-transform: uppercase;
 }
