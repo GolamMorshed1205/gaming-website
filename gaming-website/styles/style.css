@@ -664,3 +664,135 @@ div li a {
     }
 
 }
+
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+
+    nav{
+        flex-direction: row;
+        gap: 20px;
+    }
+    .nav-content {
+        gap: 1px;
+    }
+    .nav-menu-content {
+        gap: 10px;
+    }
+    
+    .featured {
+        flex-direction: column;
+    }
+
+    .featured-image-content {
+        width: 600px;
+        margin-left: 80px;
+
+    }
+    .btn {
+        display: flex;
+    }
+
+    .featured-content {
+        text-align: center;
+        margin-top: -40px;
+        width: 600px;
+
+    }
+
+    .online-games-section {
+        width: 600px;
+        margin-left: 80px;
+    }
+
+    .online-video-content {
+        width: 600px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .video {
+        width: 200px;
+    }
+
+    .play-instant {
+        flex-direction: column;
+        padding-bottom: 1px;
+        width: 600px;
+        margin-left: 90px;
+    }
+
+    .play-instant-content {
+        padding: 20px 25px 0px 25px;
+        text-align: center;
+    }
+
+    .play-instant-img {
+        width: 500px;
+        height: 300px;
+        padding: 0px 10px 0px 20px;
+        margin-top: 10px;
+    }
+
+    .play-instant-img-small {
+        width: 80px;
+        position: relative;
+        margin: -100px 100px 0px 10px;
+    }
+
+    .play-online {
+        flex-direction: column-reverse;
+        width: 600px;
+        margin-left: 80px;
+        padding: 0px 1px 0px 1px;
+    }
+
+    .play-online-content {
+        padding: 0px 1px 0px 1px;
+    }
+
+    .play-online-img {
+        height: 300px;
+        width: 500px;
+        margin-left: 40px;
+    }
+
+    .play-online-img-small {
+        width: 80px;
+        position: relative;
+        margin: -100px 10px 0px 250px;
+    }
+
+    .Career {
+        display: none;
+    
+    }
+
+    .category-content {
+        flex-direction: row;
+        width: 700px;
+        padding: 10px 0px 40px 30px;
+    }
+
+    .footer {
+        margin-top: -10px;
+        width: 700px;
+        margin-left: 30px;
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+    .footer-useful-link {
+        flex-wrap: wrap;
+        padding: 5px 5px;
+    }
+
+    .copyright {
+        font-size: small;
+    }
+
+}
