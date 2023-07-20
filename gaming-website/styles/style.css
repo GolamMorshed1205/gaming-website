@@ -202,7 +202,7 @@ nav li a {
 
 .online-games-section {
     margin-bottom: 50px;
-    background-color:#FFF;
+    background-color: #FFF;
 }
 
 .online-video-content {
@@ -237,9 +237,12 @@ nav li a {
     height: 200px;
     width: 200px;
     text-align: center;
+    cursor: pointer;
 }
 
-.video:hover {
+.video:hover+.hide {
+    display: block;
+    backface-visibility: var(blur);
     color: #FF42A5;
     text-transform: uppercase;
 }
@@ -248,7 +251,7 @@ nav li a {
 
 .play-instant {
     display: flex;
-    background-color:#FFF;
+    background-color: #FFF;
     padding-bottom: 100px;
 }
 
@@ -287,7 +290,7 @@ nav li a {
 
 .play-online {
     display: flex;
-    background-color:#FFF;
+    background-color: #FFF;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -408,7 +411,7 @@ nav li a {
     padding: 5px 30px 5px 10px;
     font-size: small;
     text-align: center;
-
+    cursor: pointer;
 }
 
 .game-category:hover {
@@ -476,9 +479,11 @@ div li a {
 
 /* Responsive Media Queries */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 500px) {
     nav {
         flex-direction: column;
+        width: 500px;
+        margin-left: 20px;
     }
 
     .nav-content {
@@ -487,16 +492,18 @@ div li a {
 
     .nav-menu {
         flex-direction: column;
+        margin-top: 0px;
     }
 
     .nav-menu-content {
         flex-direction: column;
         gap: 10px;
         text-align: center;
+        margin-top: -20px;
     }
 
     .nav-social-content {
-        margin-right: -5px;
+        margin-right: -10px;
         margin-bottom: 10px;
     }
 
@@ -504,31 +511,49 @@ div li a {
         flex-direction: column-reverse;
     }
 
+    .banner-img {
+        width: 400px;
+        margin-left: 80px;
+    }
+
     .banner-content {
-        width: 100%;
+        width: 400px;
         background-size: 100%;
-        padding: 10px 20px 10px 50px;
+        padding: 10px 20px 10px 80px;
         margin-bottom: 10px;
+        text-align: center;
     }
 
     .btn {
         display: flex;
-        padding: 0px 20px 10px 10px;
-        margin-left: -40px;
+        padding: 0px 20px 10px 40px;
+        margin-left: 0px;
     }
 
     .featured {
         flex-direction: column;
     }
 
+    .featured-image-content {
+        width: 400px;
+        margin-left: 80px;
+    }
+
     .featured-content {
         text-align: center;
-        padding: 0px 100px 20px;
         margin-top: -40px;
+        width: 400px;
+
+    }
+
+    .online-games-section {
+        width: 400px;
+        margin-left: 80px;
     }
 
     .online-video-content {
         flex-direction: column;
+        width: 400px;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -536,12 +561,14 @@ div li a {
     }
 
     .video {
-        width: 80%;
+        width: 300px;
     }
 
     .play-instant {
         flex-direction: column;
         padding-bottom: 1px;
+        width: 400px;
+        margin-left: 80px;
     }
 
     .play-instant-content {
@@ -550,7 +577,7 @@ div li a {
     }
 
     .play-instant-img {
-        width: 280px;
+        width: 300px;
         height: 200px;
         padding: 0px 10px 0px 20px;
         margin-top: 10px;
@@ -564,18 +591,18 @@ div li a {
 
     .play-online {
         flex-direction: column-reverse;
+        width: 400px;
+        margin-left: 80px;
         padding: 0px 1px 0px 1px;
-        margin: 1px 1px 1px 1px;
     }
 
     .play-online-content {
         padding: 0px 1px 0px 1px;
-        margin: 1px 1px 1px 1px;
     }
 
     .play-online-img {
-        height: 220px;
-        padding-left: 50px;
+        height: 300px;
+        margin-left: 30px;
     }
 
     .play-online-img-small {
@@ -585,13 +612,15 @@ div li a {
     }
 
     .Career {
-        margin-top: 80px;
+        margin-top: 60px;
         flex-direction: column;
+        width: 400px;
+        margin-left: 80px;
         padding: 10px 10px;
     }
 
     .Career-content {
-        width: 100%;
+        width: 400px;
         padding: 5px 5px 5px 0px;
     }
 
@@ -604,17 +633,21 @@ div li a {
     }
 
     .Career-img {
-        width: 100%;
+        width: 400px;
         padding-left: 15px;
     }
 
     .category-content {
         flex-direction: row;
+        width: 400px;
+        margin-left: 80px;
         padding: 10px 0px 40px 0px;
     }
 
     .footer {
         margin-top: -10px;
+        width: 500px;
+        margin-left: 20px;
     }
 
     .logo {
